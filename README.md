@@ -1,17 +1,17 @@
-360i Data Engineering Challenges
+# 360i Data Engineering Challenges
 
 This takehome challenge involves pulling data from an API, creating a database, and running an analysis.
 We should be able to replicate your work - please provide any code, notes, and/or documents you used
 while analyzing the data in a zip file package. This helps us follow your thought process. This take home
 assignment is property of 360i and is not to be shared without permission.
 
-Intro
+# Intro
 The API we’ll be working with is the Spotify API. We recommend the spotipy library to work with the
 API in Python. We ask that you munge the data into a SQLite database. sqlite3 is part of the Python
 standard library. Please attach the SQLite db file as part of your submission. Finally, answer some questions
 using SQL queries and pandas. Feel free to add visualizations using the tool of your choice.
 
-Spotipy API
+# Spotipy API
 
 To use the spotipy python API, you need to use a spotify “app”. If you have a spotify account you can set
 one up on their website. Otherwise feel free to use ours:
@@ -29,7 +29,7 @@ token = util.prompt_for_user_token('Puffer Fish',scope=scope)
 spotify = Spotify(auth=token)
 
 
-ETL
+# ETL
 
 Please build a database as described below using the Spotify “Rap Caviar” playlist. You will be making two
 tables in a database:
@@ -53,7 +53,7 @@ For songs with multiple artists, you can just use the first one listed.
 Fill the artists table with all of the artists in the tracks.
 artists table minimum fields: - id - name - popularity - followers
 
-Analysis
+#Analysis
 Basic questions:
 • How many songs are in the playlist?
 • What are the top 5 tracks by artist follower count?
