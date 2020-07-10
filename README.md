@@ -7,8 +7,8 @@ This project involves pulling data from Spotify API, creating a database using S
 - By using the Spotify API, I have created a python script that fetches information of tracks (name, popularity, duration_ms, etc) and information of artists (name, popularity, followers, etc) for a playlist name Rapcavier. 
 - I have designed two tables in SQlite database to store the information of tracks and artist I have extracted in step 1. 
 - I have written SQL queries to query data to ran following analysis;
-• How many songs are in the playlist?
-• What are the top 5 tracks by artist follower count?
-• Which song is the longest?
-• What is the relationship between track and artist popularity?
+-- How many songs are in the playlist?
+-- What are the top 5 tracks by artist follower count?
+-- Which song is the longest?
+-- What is the relationship between track and artist popularity?
 
