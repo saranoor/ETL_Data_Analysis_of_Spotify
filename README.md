@@ -19,7 +19,7 @@ This project involves pulling data from Spotify API, creating a database using S
  - SQL
  
  # Setup
- To run this project use jupyter notebook or you may run .py file direction from terminal
+ To run this project use jupyter notebook or you may run Spotify_Playlist_Data_Analysis.py file directly from terminal.
  
  
  
