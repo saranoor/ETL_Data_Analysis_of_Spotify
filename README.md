@@ -11,4 +11,16 @@ This project involves pulling data from Spotify API, creating a database using S
   - What are the top 5 tracks by artist follower count?
   - Which song is the longest?
   - What is the relationship between track and artist popularity?
+  
+ # Tech/Framworks Used
+ 
+ - Python
+ - SQlite3
+ - SQL
+ 
+ # Setup
+ To run this project use jupyter notebook or you may run .py file direction from terminal
+ 
+ 
+ 
 
