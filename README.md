@@ -23,4 +23,3 @@ This project involves pulling data from Spotify API, creating a database using S
  
  
  
-
